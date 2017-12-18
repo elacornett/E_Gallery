@@ -8,6 +8,35 @@
 <title>Elaine Cornett | Graphic Design </title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <script src="java1.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="responsiveslides.css" type="text/css">
+  <link rel="stylesheet" href="demo.css" type="text/css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+
+
+
 </head>
 
 <body>
@@ -34,38 +63,26 @@
 	
 	<section id="main">
 
- <div class="container">
-    <div id="slides">
-      <img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-      <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-      <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-      <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
-      <a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
-      <a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+<div id="wrapper">
+  
+    <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="slideshow/minilum.png" alt="">
+          <p class="caption">This is a caption</p>
+        </li>
+        <li>
+          <img src="images/2.jpg" alt="">
+          <p class="caption">This is another caption</p>
+        </li>
+        <li>
+          <img src="images/3.jpg" alt="">
+          <p class="caption">The third caption</p>
+        </li>
+      </ul>
     </div>
-  </div>
-  <!-- End SlidesJS Required: Start Slides -->
-
-  <!-- SlidesJS Required: Link to jQuery -->
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <!-- End SlidesJS Required -->
-
-  <!-- SlidesJS Required: Link to jquery.slides.js -->
-  <script src="js/jquery.slides.min.js"></script>
-  <!-- End SlidesJS Required -->
- 
- <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 528,
-        navigation: false
-      });
-    });
-  </script>
  
  
-</body>
 
     
     
@@ -74,6 +91,9 @@
     
 	
 </div>
+
+</section>
+
 <br>
 
 <div style="text-align:center">
@@ -82,8 +102,9 @@
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
 	
+</div>
 	
-	
+</body>	
 	
 
 

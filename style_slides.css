@@ -75,8 +75,7 @@ a:visited{
 	height: 600px;
 	float:left;
 	margin-left:0px;
-	padding-left:25px;
-	padding-top:10px;
+	padding: 10px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	line-height: 10px;
 	

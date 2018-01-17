@@ -61,7 +61,7 @@ img { border: 0; max-width: 100%; }
   padding: 4px;
   margin-right: 10px;
   margin-bottom: 7px;
-  opacity: 0.75;
+  opacity: 0.85;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   transition: all 0.3s linear;

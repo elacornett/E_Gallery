@@ -12,16 +12,17 @@ body{
 #menu{
 	
 	background-color: white;
+	border-right: 2 px solid #a57f89;
 	position:relative;
 	float:left;
 	text-align: right;
 	font-size:18px;
 	font-weight:bold;
-	width: 110px;
+	width: 125px;
 	height: 600px;
 	float:left;
 	margin: 0px;
-	padding-right:0px;
+	padding-right:10px;
 	padding-top:10px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	line-height: 10px;
@@ -58,6 +59,7 @@ color: #94375D;
 #container{
 	
 	background-color:white;
+	border:2px solid #e0cad1;
 	position:relative;
 	width: 975px;
 	height: 610px;
@@ -73,7 +75,7 @@ color: #94375D;
 	background-color:white;
 	position:relative;
 	float:right;
-	width: 820px;
+	width: 800px;
 	height: 600px;
 	float:left;
 	margin-left:0px;

@@ -9,6 +9,17 @@ body{
 }
 
 
+#top{
+	
+	background-color: #5E0016;
+	height: 50px;
+	width: 400px;
+	font-size:48px;
+	font-color:white;
+	
+}
+
+
 #menu{
 	
 	background-color: white;

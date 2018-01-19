@@ -120,6 +120,23 @@ h3 {
 	
 	background-color:white;
 	position:relative;
+	width: 950px;
+	height: 30px;
+	float:left;
+	margin-left:100px;
+	padding-left:25px;
+	padding-top:10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 10px;
+	border:2px solid #e0cad1;
+}
+
+
+
+#footer2{
+	
+	background-color:white;
+	position:relative;
 	width: 975px;
 	height: 50px;
 	float:left;

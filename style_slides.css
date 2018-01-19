@@ -116,6 +116,23 @@ h3 {
 	font-size:20px;
 }
 
+#footer{
+	
+	background-color:white;
+	position:relative;
+	width: 975px;
+	height: 50px;
+	float:left;
+	margin-left:100px;
+	padding-left:25px;
+	padding-top:10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 10px;
+	border:2px solid #e0cad1;
+
+	
+}
+
 
 
 .rslides {

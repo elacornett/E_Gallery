@@ -1,6 +1,22 @@
 @charset "UTF-8";
 /* CSS Document */
 
+header {
+    background-color:#5E0016;
+	font-size:48px;
+    width:400px;
+    height:50px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-top: 15px;
+	padding-left: 100px;
+	margin-bottom: 10px;
+
+}
+
+header a{
+	color: #ffffff !important;
+}
+
 body{
 	
 	background-color: #5E0016;
